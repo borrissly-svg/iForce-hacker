@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid slice">
+  <title id="title">Ifoce Hackers cyber security background</title>
+  <desc id="desc">Abstract green cyber security interface with a glowing shield, circuit traces, grid, and binary code.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#010b06"/>
+      <stop offset="0.52" stop-color="#031b10"/>
+      <stop offset="1" stop-color="#00150c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="48%">
+      <stop offset="0" stop-color="#20f59a" stop-opacity=".18"/>
+      <stop offset=".45" stop-color="#09a966" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#00150c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#72ffc0" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#00b96b" stop-opacity=".18"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#20f59a" stroke-opacity=".09"/>
+      <circle cx="2" cy="2" r="1.5" fill="#20f59a" fill-opacity=".25"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g fill="none" stroke="#20f59a" stroke-opacity=".2" stroke-width="2">
+    <path d="M0 190H250L330 270H520"/><path d="M1600 220H1360L1265 315H1080"/>
+    <path d="M0 700H260L350 610H510"/><path d="M1600 680H1350L1250 580H1090"/>
+    <path d="M190 0V110L280 200"/><path d="M1410 0V125L1325 210"/>
+  </g>
+  <g fill="#20f59a" opacity=".72">
+    <circle cx="250" cy="190" r="4"/><circle cx="520" cy="270" r="4"/><circle cx="1360" cy="220" r="4"/><circle cx="1080" cy="315" r="4"/>
+    <circle cx="260" cy="700" r="4"/><circle cx="510" cy="610" r="4"/><circle cx="1350" cy="680" r="4"/><circle cx="1090" cy="580" r="4"/>
+  </g>
+  <circle cx="800" cy="440" r="245" fill="#20f59a" opacity=".08" filter="url(#blur)"/>
+  <g transform="translate(800 445)">
+    <path d="M0-190L150-135V-5c0 112-66 190-150 232C-84 185-150 107-150-5v-130z" fill="#02160d" stroke="url(#shield)" stroke-width="7"/>
+    <path d="M0-155L116-113V-8c0 86-46 145-116 184C-70 137-116 78-116-8v-105z" fill="none" stroke="#20f59a" stroke-opacity=".28" stroke-width="2"/>
+    <path d="M-58 5l39 39 79-87" fill="none" stroke="#72ffc0" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)"/>
+    <path d="M-58 5l39 39 79-87" fill="none" stroke="#72ffc0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#72ffc0" fill-opacity=".24" font-family="monospace" font-size="18" letter-spacing="5">
+    <text x="75" y="360">01010110 10100101 11001010</text>
+    <text x="1010" y="770">00110101 01101110 10011001</text>
+    <text x="105" y="805">AUTH // SCOPE // EVIDENCE // VERIFY</text>
+    <text x="1050" y="125">DEFEND // MONITOR // RESPOND</text>
+  </g>
+  <rect x="0" y="0" width="1600" height="900" fill="none" stroke="#20f59a" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M0 840C310 760 440 870 710 805S1120 760 1600 835" fill="none" stroke="#20f59a" stroke-opacity=".12" stroke-width="3"/>
+</svg>
